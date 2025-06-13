@@ -1,0 +1,22 @@
+# Python Backend Specific Ignores
+quick_tube_backend/.venv/
+quick_tube_backend/venv/
+quick_tube_backend/__pycache__/
+quick_tube_backend/*.pyc
+quick_tube_backend/.env
+quick_tube_backend/credentials.json # DO NOT push your API credentials
+quick_tube_backend/token.json      # DO NOT push your OAuth tokens
+
+# Flutter Frontend Specific Ignores (standard for Flutter projects)
+quick_tube/.idea/
+quick_tube/.dart_tool/
+quick_tube/.flutter-plugins
+quick_tube/.flutter-plugins-dependencies
+quick_tube/.packages
+quick_tube/.vscode/
+quick_tube/build/
+quick_tube/*.iml
+
+# General OS ignores
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
