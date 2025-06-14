@@ -19,11 +19,11 @@
         "description": "QuickTube is an innovative FOSS mobile application (built with Flutter) complemented by a robust Python Flask backend. It addresses the growing challenge of information overload by providing concise, AI-powered summaries of YouTube video transcripts.\n\nIn a world where video content is abundant but time is scarce, QuickTube empowers users to quickly grasp the essence of long videos without watching them entirely. It achieves this by fetching available video captions (prioritizing English, including auto-generated translations if original is another language), processing them with a fine-tuned T5-small transformer model, and delivering easily digestible summaries directly to the user's mobile device.\n\nKey features include:\n- User-friendly and intuitive mobile interface.\n- Efficient transcript retrieval from YouTube.\n- AI-driven summarization for brevity and clarity.\n- Designed for speed and accessibility across Android platforms (with future plans for iOS and Desktop).\n\nQuickTube is committed to open-source principles, offering a valuable tool for students, researchers, professionals, and casual viewers alike to enhance their learning and productivity.",
         "webpageUrl": {
             "url": "https://github.com/Rahul-14507/QuikTube",
-            "wellKnown": "https://github.com/Rahul-14507/QuikTube"
+            "wellKnown": "https://github.com/Rahul-14507/QuikTube/.well-known/funding-manifest-urls"
         },
         "repositoryUrl": {
             "url": "https://github.com/Rahul-14507/QuikTube",
-            "wellKnown": "https://github.com/Rahul-14507/QuikTube"
+            "wellKnown": "https://github.com/Rahul-14507/QuikTube/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:MIT"],
         "tags": ["mobile-app", "flutter", "python", "flask", "nlp", "ai", "summarization", "youtube-tools", "foss", "productivity", "android"]
