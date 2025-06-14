@@ -26,10 +26,7 @@
             "wellKnown": "https://github.com/Rahul-14507/QuikTube/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:MIT"],
-        "tags": ["mobile-app", "flutter", "python", "flask", "nlp", "ai", "summarization", "youtube-tools", "foss", "productivity"],
-        "history": [
-            {"year": 2024, "income": 0, "expenses": 0, "taxes": 0, "currency": "INR", "description": "QuickTube is a newly initiated FOSS project. All development and operational expenses to date have been self-funded, reflecting personal investment and commitment to the project's vision."}
-        ]
+        "tags": ["mobile-app", "flutter", "python", "flask", "nlp", "ai", "summarization", "youtube-tools", "foss", "productivity"]
     }],
     "funding": {
         "channels": [
@@ -48,7 +45,7 @@
         ],
         "plans": [
             {
-                "guid": "development-environment-enhancement",
+                "guid": "dev-env-enhancement",
                 "status": "active",
                 "name": "Enhanced Development Environment",
                 "description": "Current development is hampered by limited computing resources (8GB RAM, integrated GPU), severely restricting the processing of larger video transcripts and inhibiting robust testing and feature development. This one-time fund will allow for a critical upgrade to 16GB/32GB RAM and a dedicated GPU, enabling faster iteration, more complex NLP model integration, and significant improvements in development efficiency and app quality.",
