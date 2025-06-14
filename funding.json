@@ -22,8 +22,8 @@
             "wellKnown": "https://rahul-14507.github.io/QuikTube/.well-known/funding-manifest-urls"
         },
         "repositoryUrl": {
-            "url": "https://github.com/Rahul-14507/QuikTube", // Reverted to actual GitHub repo URL
-            "wellKnown": "" // Set to empty string
+            "url": "https://github.com/Rahul-14507/QuikTube", 
+            "wellKnown": "" 
         },
         "licenses": ["spdx:MIT"],
         "tags": ["mobile-app", "flutter", "python", "flask", "nlp", "ai", "summarization", "youtube-tools", "foss", "productivity"]
