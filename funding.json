@@ -14,15 +14,16 @@
         }
     },
     "projects": [{
-        "guid": "quick-tube-summarizer-app",
-        "name": "QuickTube Summarizer",
-        "description": "QuickTube Summarizer is an innovative FOSS mobile application (built with Flutter) complemented by a robust Python Flask backend. It addresses the growing challenge of information overload by providing concise, AI-powered summaries of YouTube video transcripts.\n\nIn a world where video content is abundant but time is scarce, QuickTube empowers users to quickly grasp the essence of long videos without watching them entirely. It achieves this by fetching available video captions (prioritizing English, including auto-generated translations if original is another language), processing them with a fine-tuned T5-small transformer model, and delivering easily digestible summaries directly to the user's mobile device.\n\nKey features include:\n- User-friendly and intuitive mobile interface.\n- Efficient transcript retrieval from YouTube.\n- AI-driven summarization for brevity and clarity.\n- Designed for speed and accessibility across Android platforms (with future plans for iOS and Desktop).\n\nQuickTube is committed to open-source principles, offering a valuable tool for students, researchers, professionals, and casual viewers alike to enhance their learning and productivity.",
+        "guid": "quick-tube-app",
+        "name": "QuickTube",
+        "description": "QuickTube is an innovative FOSS mobile application (built with Flutter) complemented by a robust Python Flask backend. It addresses the growing challenge of information overload by providing concise, AI-powered summaries of YouTube video transcripts.\n\nIn a world where video content is abundant but time is scarce, QuickTube empowers users to quickly grasp the essence of long videos without watching them entirely. It achieves this by fetching available video captions (prioritizing English, including auto-generated translations if original is another language), processing them with a fine-tuned T5-small transformer model, and delivering easily digestible summaries directly to the user's mobile device.\n\nKey features include:\n- User-friendly and intuitive mobile interface.\n- Efficient transcript retrieval from YouTube.\n- AI-driven summarization for brevity and clarity.\n- Designed for speed and accessibility across Android platforms (with future plans for iOS and Desktop).\n\nQuickTube is committed to open-source principles, offering a valuable tool for students, researchers, professionals, and casual viewers alike to enhance their learning and productivity.",
         "webpageUrl": {
-            "url": "https://github.com/Rahul-14507/QuikTubeSummarizer"
+            "url": "https://github.com/Rahul-14507/QuikTube",
+            "wellKnown": "https://github.com/Rahul-14507/QuikTube"
         },
         "repositoryUrl": {
-            "url": "https://github.com/Rahul-14507/QuikTubeSummarizer",
-            "wellKnown": ""
+            "url": "https://github.com/Rahul-14507/QuikTube",
+            "wellKnown": "https://github.com/Rahul-14507/QuikTube"
         },
         "licenses": ["spdx:MIT"],
         "tags": ["mobile-app", "flutter", "python", "flask", "nlp", "ai", "summarization", "youtube-tools", "foss", "productivity", "android"]
@@ -57,7 +58,7 @@
                 "guid": "cloud-infrastructure-sustainability",
                 "status": "active",
                 "name": "Sustainable Cloud Infrastructure & API Costs",
-                "description": "The Flask backend, hosting the NLP summarization model and relying on powerful AI APIs like Gemini, requires robust cloud hosting with sufficient CPU, GPU, and RAM to handle summarization requests efficiently. This monthly funding will cover critical server hosting costs **and the computational expenses of high token usage for AI models (e.g., Gemini API)**, ensuring QuickTube remains online, performant, and scalable as user adoption grows.",
+                "description": "The Flask backend, hosting the NLP summarization model and relying on powerful AI APIs like Gemini, requires robust cloud hosting with sufficient CPU, GPU, and RAM to handle summarization requests efficiently. This monthly funding will cover critical server hosting costs **and the computational expenses of high token usage for AI models (e.g., Gemini API)**, ensuring QuickTube remains online, performant and scalable as user adoption grows.",
                 "amount": 75000,
                 "currency": "INR",
                 "frequency": "monthly",
