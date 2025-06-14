@@ -10,7 +10,7 @@
         "description": "I am a dedicated open-source developer committed to building practical and impactful applications. My passion lies in creating tools that leverage technology, particularly in areas like AI and mobile development, to solve real-world problems and enhance daily productivity. I am currently focusing all my efforts on the QuickTube project, driven by a vision to empower users with efficient information consumption in the digital age. I am deeply invested in fostering digital freedoms through accessible FOSS technologies.",
         "webpageUrl": {
             "url": "https://github.com/Rahul-14507",
-            "wellKnown": "https://github.com/Rahul-14507/QuikTube/.well-known/funding-manifest-urls"
+            "wellKnown": ""
         }
     },
     "projects": [{
@@ -26,7 +26,10 @@
             "wellKnown": "https://github.com/Rahul-14507/QuikTube/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:MIT"],
-        "tags": ["mobile-app", "flutter", "python", "flask", "nlp", "ai", "summarization", "youtube-tools", "foss", "productivity", "android"]
+        "tags": ["mobile-app", "flutter", "python", "flask", "nlp", "ai", "summarization", "youtube-tools", "foss", "productivity"],
+        "history": [
+            {"year": 2024, "income": 0, "expenses": 0, "taxes": 0, "currency": "INR", "description": "QuickTube is a newly initiated FOSS project. All development and operational expenses to date have been self-funded, reflecting personal investment and commitment to the project's vision."}
+        ]
     }],
     "funding": {
         "channels": [
