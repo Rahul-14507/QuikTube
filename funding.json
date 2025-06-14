@@ -22,7 +22,7 @@
             "wellKnown": "https://rahul-14507.github.io/QuikTube/.well-known/funding-manifest-urls"
         },
         "repositoryUrl": {
-            "url": "https://github.com/Rahul-14507/QuikTube", 
+            "url": "https://rahul-14507.github.io/QuikTube", // CHANGED TO MATCH GITHUB PAGES HOSTNAME
             "wellKnown": "https://rahul-14507.github.io/QuikTube/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:MIT"],
