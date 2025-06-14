@@ -1,0 +1,91 @@
+{
+    "$schema": "https://floss.fund/schema/v1.0.0/funding.schema.json#",
+    "version": "v1.0.0",
+    "entity": {
+        "type": "individual",
+        "role": "Lead Developer & Maintainer",
+        "name": "Rahul Pujari",
+        "email": "pujarirahulpandu@gmail.com",
+        "phone": "+919492106980",
+        "description": "I am a dedicated open-source developer committed to building practical and impactful applications. My passion lies in creating tools that leverage technology, particularly in areas like AI and mobile development, to solve real-world problems and enhance daily productivity. I am currently focusing all my efforts on the QuickTube project, driven by a vision to empower users with efficient information consumption in the digital age. I am deeply invested in fostering digital freedoms through accessible FOSS technologies.",
+        "webpageUrl": {
+            "url": "https://github.com/Rahul-14507",
+            "wellKnown": ""
+        }
+    },
+    "projects": [{
+        "guid": "quick-tube-summarizer-app",
+        "name": "QuickTube Summarizer",
+        "description": "QuickTube Summarizer is an innovative FOSS mobile application (built with Flutter) complemented by a robust Python Flask backend. It addresses the growing challenge of information overload by providing concise, AI-powered summaries of YouTube video transcripts.\n\nIn a world where video content is abundant but time is scarce, QuickTube empowers users to quickly grasp the essence of long videos without watching them entirely. It achieves this by fetching available video captions (prioritizing English, including auto-generated translations if original is another language), processing them with a fine-tuned T5-small transformer model, and delivering easily digestible summaries directly to the user's mobile device.\n\nKey features include:\n- User-friendly and intuitive mobile interface.\n- Efficient transcript retrieval from YouTube.\n- AI-driven summarization for brevity and clarity.\n- Designed for speed and accessibility across Android platforms (with future plans for iOS and Desktop).\n\nQuickTube is committed to open-source principles, offering a valuable tool for students, researchers, professionals, and casual viewers alike to enhance their learning and productivity.",
+        "webpageUrl": {
+            "url": "https://github.com/Rahul-14507/QuikTubeSummarizer"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/Rahul-14507/QuikTubeSummarizer",
+            "wellKnown": ""
+        },
+        "licenses": ["spdx:MIT"],
+        "tags": ["mobile-app", "flutter", "python", "flask", "nlp", "ai", "summarization", "youtube-tools", "foss", "productivity", "android"]
+    }],
+    "funding": {
+        "channels": [
+            {
+                "guid": "upi-gpay",
+                "type": "payment-provider",
+                "address": "prameelavidya8@oksbi",
+                "description": "Accepting UPI transactions (Google Pay) for quick contributions. Please note UPI has daily transaction limits which may be insufficient for larger donations."
+            },
+            {
+                "guid": "sbi-bank-transfer",
+                "type": "bank",
+                "address": "Account No: 40353774496, IFSC: SBIN0006641",
+                "description": "Direct bank transfers via State Bank of India (Account Holder: Mr. PUJARI RAHUL, Branch: AGRICULTURE COMMERCIAL BRANCH, KARLMARX COLONY, BHUPALAPALLY). This is suitable for larger contributions. For international SWIFT/BIC code or any further banking details, please email pujarirahulpandu@gmail.com."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "development-environment-enhancement",
+                "status": "active",
+                "name": "Enhanced Development Environment",
+                "description": "Current development is hampered by limited computing resources (8GB RAM, integrated GPU), severely restricting the processing of larger video transcripts and inhibiting robust testing and feature development. This one-time fund will allow for a critical upgrade to 16GB/32GB RAM and a dedicated GPU, enabling faster iteration, more complex NLP model integration, and significant improvements in development efficiency and app quality.",
+                "amount": 100000,
+                "currency": "INR",
+                "frequency": "one-time",
+                "channels": ["upi-gpay", "sbi-bank-transfer"]
+            },
+            {
+                "guid": "cloud-infrastructure-sustainability",
+                "status": "active",
+                "name": "Sustainable Cloud Infrastructure & API Costs",
+                "description": "The Flask backend, hosting the NLP summarization model and relying on powerful AI APIs like Gemini, requires robust cloud hosting with sufficient CPU, GPU, and RAM to handle summarization requests efficiently. This monthly funding will cover critical server hosting costs **and the computational expenses of high token usage for AI models (e.g., Gemini API)**, ensuring QuickTube remains online, performant, and scalable as user adoption grows.",
+                "amount": 75000,
+                "currency": "INR",
+                "frequency": "monthly",
+                "channels": ["upi-gpay", "sbi-bank-transfer"]
+            },
+            {
+                "guid": "supabase-subscription",
+                "status": "active",
+                "name": "SupaBase Database & Authentication",
+                "description": "To provide robust user management, secure authentication, and a scalable database solution for storing user preferences, history, and future app data, a paid SupaBase subscription is essential. This ensures data integrity, performance, and compliance for an growing user base.",
+                "amount": 5000,
+                "currency": "INR",
+                "frequency": "monthly",
+                "channels": ["upi-gpay", "sbi-bank-transfer"]
+            },
+            {
+                "guid": "feature-development-and-maintenance",
+                "status": "active",
+                "name": "Continuous Development & Future Innovations",
+                "description": "This fund will support ongoing development efforts, including bug fixes, running on own server, security updates, and the implementation of advanced features such as improved multilingual support, context-aware summarization, integration with more advanced NLP models in the server, and enhanced user experience functionalities. It ensures the long-term viability and competitive edge of QuickTube.",
+                "amount": 150000,
+                "currency": "INR",
+                "frequency": "one-time",
+                "channels": ["upi-gpay", "sbi-bank-transfer"]
+            }
+        ],
+        "history": [
+            {"year": 2024, "income": 0, "expenses": 0, "taxes": 0, "currency": "INR", "description": "QuickTube is a newly initiated FOSS project. All development and operational expenses to date have been self-funded, reflecting personal investment and commitment to the project's vision."}
+        ]
+    }
+}
