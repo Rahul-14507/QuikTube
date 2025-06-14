@@ -10,7 +10,7 @@
         "description": "I am a dedicated open-source developer committed to building practical and impactful applications. My passion lies in creating tools that leverage technology, particularly in areas like AI and mobile development, to solve real-world problems and enhance daily productivity. I am currently focusing all my efforts on the QuickTube project, driven by a vision to empower users with efficient information consumption in the digital age. I am deeply invested in fostering digital freedoms through accessible FOSS technologies.",
         "webpageUrl": {
             "url": "https://github.com/Rahul-14507",
-            "wellKnown": ""
+            "wellKnown": "https://github.com/Rahul-14507/QuikTube/.well-known/funding-manifest-urls"
         }
     },
     "projects": [{
