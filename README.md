@@ -50,20 +50,6 @@ Follow these steps to set up the QuickTube development environment:
 5.  **Enter YouTube URL:** Enter the URL of the YouTube video you want to summarize into the app.
 6.  **View Summary:** The app will display the summarized bullet points of the video.
 
-## Screenshots
-
-> *Add screenshots of the application's interface here.  For example:*
->
-> ### Main Screen
-> ![Main Screen](url_to_your_screenshot_1)
->
-> *Shows the main interface where users can input YouTube URLs.*
->
-> ### Summary View
-> ![Summary View](url_to_your_screenshot_2)
->
-> *Displays the summarized bullet points of a YouTube video.*
-
 ## Contribution Guidelines
 
 We welcome contributions to QuickTube! To contribute:
@@ -74,3 +60,4 @@ We welcome contributions to QuickTube! To contribute:
 4.  Submit a pull request with a clear description of your changes.
 
 ## License Information
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
