@@ -1,18 +1,76 @@
-Project Title:
-QuickTube
+# QuickTube
 
-What it is:
-A Flutter mobile application with a Python Flask backend that gives you instant summaries of YouTube videos in the form of actionable bullet points without making you sit through the full thing
-Problem it solves: It's made for people who want self-growth but don’t have time to watch 30-minute videos. Basically, it's YouTube without the time-waste — learn fast, scroll less.
+## Description
 
-Features:
-Fetches YouTube video transcripts, uses a T5-small model or GPT API or Gemini API for summarization, displays summaries into a few actionable bullet points in a user-friendly mobile interface.
+QuickTube is a Flutter mobile application designed to provide instant summaries of YouTube videos in actionable bullet points. It addresses the need for efficient learning and eliminates the time-waste associated with watching lengthy videos. QuickTube is ideal for individuals seeking self-growth who have limited time.
 
-Technologies Used:
-Flutter, Flask, Python, T5-small, GPT API, Gemini APIYouTube Data API, SupaBase.
+## Features
 
-Setup Instructions:
-Install the following: flutter pub get, pip install -r requirements.txt and python app.py
+*   **YouTube Transcript Fetching:** Automatically retrieves transcripts from YouTube videos.
+*   **AI-Powered Summarization:** Utilizes T5-small, GPT API, or Gemini API to generate concise summaries.
+*   **Actionable Bullet Points:** Presents summaries as easy-to-digest bullet points for quick understanding.
+*   **User-Friendly Mobile Interface:** Offers a seamless and intuitive experience on mobile devices.
 
-How to Use:
-Download the repository and open it in Android Studio, open cmd as administrator open the project folder, activate backend environment and run python app.py. connect a phone or run in an emulator.
+## Technologies Used
+
+*   **Frontend:** Flutter
+*   **Backend:** Flask (Python)
+*   **Summarization Models/APIs:** T5-small, GPT API, Gemini API
+*   **Data Storage:** Supabase
+*   **YouTube Integration:** YouTube Data API
+
+## Setup Instructions
+
+Follow these steps to set up the QuickTube development environment:
+
+### 1. Prerequisites
+
+*   Flutter SDK: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
+*   Python 3.x: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+*   Android Studio or VS Code with Flutter extension
+*   Supabase account and project: [https://supabase.com/](https://supabase.com/)
+
+### 2. Clone the Repository
+
+> bash
+> cd backend  # Navigate to the backend directory
+> python3 -m venv venv
+> source venv/bin/activate # On Windows use `venv\Scripts\activate`
+> pip install -r requirements.txt
+> > Create a `.env` file in the `backend` directory and add your API keys and Supabase credentials:
+
+> bash
+> python app.py
+> > In `main.dart` or your relevant service file, initialize Supabase with your project URL and API key.
+
+> 1.  **Download and Open:** Download the QuickTube repository and open it in Android Studio or VS Code.
+2.  **Run Backend:** Ensure the Flask backend server is running by navigating to the `backend` directory, activating the virtual environment, and executing `python app.py`.
+3.  **Connect Device/Emulator:** Connect your physical Android/iOS device or start an emulator.
+4.  **Run Flutter App:** In the `frontend` directory, run the Flutter application using the `flutter run` command.
+5.  **Enter YouTube URL:** Enter the URL of the YouTube video you want to summarize into the app.
+6.  **View Summary:** The app will display the summarized bullet points of the video.
+
+## Screenshots
+
+> *Add screenshots of the application's interface here.  For example:*
+>
+> ### Main Screen
+> ![Main Screen](url_to_your_screenshot_1)
+>
+> *Shows the main interface where users can input YouTube URLs.*
+>
+> ### Summary View
+> ![Summary View](url_to_your_screenshot_2)
+>
+> *Displays the summarized bullet points of a YouTube video.*
+
+## Contribution Guidelines
+
+We welcome contributions to QuickTube! To contribute:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and ensure they are well-tested.
+4.  Submit a pull request with a clear description of your changes.
+
+## License Information
