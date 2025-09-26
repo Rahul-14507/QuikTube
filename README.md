@@ -41,9 +41,9 @@ Follow these steps to set up the QuickTube development environment:
 
 > bash
 > python app.py
-> > In `main.dart` or your relevant service file, initialize Supabase with your project URL and API key.
+> In `main.dart` or your relevant service file, initialize Supabase with your project URL and API key.
 
-> 1.  **Download and Open:** Download the QuickTube repository and open it in Android Studio or VS Code.
+1.  **Download and Open:** Download the QuickTube repository and open it in Android Studio or VS Code.
 2.  **Run Backend:** Ensure the Flask backend server is running by navigating to the `backend` directory, activating the virtual environment, and executing `python app.py`.
 3.  **Connect Device/Emulator:** Connect your physical Android/iOS device or start an emulator.
 4.  **Run Flutter App:** In the `frontend` directory, run the Flutter application using the `flutter run` command.
